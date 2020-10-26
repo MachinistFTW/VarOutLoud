@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="VarOutLoud.exe" version="1.0.0.7" publicKeyToken="92e251639a9b363f" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="VarOutLoud" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="VarOutLoud.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Okuma.CMCMDAPI.dll" size="77824">
+      <assemblyIdentity name="Okuma.CMCMDAPI" version="2.5.0.0" publicKeyToken="DA5164982FF0F268" language="neutral" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>D4zhRAsjIeDqrSXlbf8qnPKG5WA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Okuma.CMDATAPI.dll" size="303104">
+      <assemblyIdentity name="Okuma.CMDATAPI" version="2.7.3.0" publicKeyToken="DDD409D78457D7AD" language="neutral" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>4VzW4jJSkcMvGmOawPUB3VGYoik=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="VarOutLoud.exe" size="13792">
+      <assemblyIdentity name="VarOutLoud" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>N7JrDzrFiYZ+ysoJkU5rGBEUSWA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="VarOutLoud.exe.config" size="217">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Puyka7iZggl/DURQw+RpbwTTFaE=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LANGROUP\Austin.Haslam" issuerKeyHash="2704e227598d94ca3692cbdd9969bd597bf3ec3d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>SfMwo5pmqMIfrxG5gHQ95IHcerE=</DigestValue></Reference></SignedInfo><SignatureValue>PgV46X206jWfjItVidRgm0pOJrmkZVCZfLEZP6/QxSy8yLOuQHoJDTxOPPzNFbjvurhmtBmP79NPuMfSf8Fmz/wWcCsADUX5TcgDVHtkati/hPrDN5drGVsjSlrBUKOWYsTVO7ADyBwL07QxyZO/38Te/ovzc0Z1XlY0MIhxrR4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vF+wCPPdGUSPi17LFzUEHyLMBCL7nqsspdGRYojDw+0FUImFWxVQPckLSF7T/zwBZoIv9+AC1rY7xXLL23BHhpzdr6NVi6L2hpc+8WVbdN2uaOWgAKPe+tp95/GZFgjx2HAw8veg349xaA79r/q3aCyLcvwOrGFeejkHoQewlDM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="b17adc81e43d7480b911af1fc2a8669aa330f349" Description="" Url=""><as:assemblyIdentity name="VarOutLoud.exe" version="1.0.0.7" publicKeyToken="92e251639a9b363f" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LANGROUP\Austin.Haslam</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>d22AOh6NEpjOx96ShtTFCdwpg9M=</DigestValue></Reference></SignedInfo><SignatureValue>Hz5vJxj0o2e06POmfhL3kgrREN4eacy2lIpAnIWkwQIIVhqjazpu0CXQS3ykqqDx0wn+Gf70+zidc22FxkygdcI9qrLG6Bw4u1iHHYs47cyIwlGeeWmbcgsVPGKsFE48dXQaKF7zq2HLMRVtGHF95jnc88TSh3yaneAVfxsSOYc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vF+wCPPdGUSPi17LFzUEHyLMBCL7nqsspdGRYojDw+0FUImFWxVQPckLSF7T/zwBZoIv9+AC1rY7xXLL23BHhpzdr6NVi6L2hpc+8WVbdN2uaOWgAKPe+tp95/GZFgjx2HAw8veg349xaA79r/q3aCyLcvwOrGFeejkHoQewlDM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQKRJUHSI+7blFBAhxYNQfUzANBgkqhkiG9w0BAQUFADA3MTUwMwYDVQQDHiwATABBAE4ARwBSAE8AVQBQAFwAQQB1AHMAdABpAG4ALgBIAGEAcwBsAGEAbTAeFw0yMDEwMjMxODE0NDZaFw0yMTEwMjQwMDE0NDZaMDcxNTAzBgNVBAMeLABMAEEATgBHAFIATwBVAFAAXABBAHUAcwB0AGkAbgAuAEgAYQBzAGwAYQBtMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC8X7AI890ZRI+LXssXNQQfIswEIvueqyyl0ZFiiMPD7QVQiYVbFVA9yQtIXtP/PAFmgi/34ALWtjvFcsvbcEeGnN2vo1WLovaGlz7xZVt03a5o5aAAo9762n3n8ZkWCPHYcDDy96Dfj3FoDv2v+rdoLIty/A6sYV56OQehB7CUMwIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAFrkJ+52eG7fwT5MyAhjG8fsq9a2tEb2hiQHXTbX+3UBAZwQ4qd5wyX1N/5KTFOH+sC3pPf8ncA9hvxjfGZ2FyyOgkRempkvSYi2UGz9T4opN28eRSyBzQVar8lQ0yLU5tHYkgF68ectuMO3K1+/XQOR3lu6T3/hcO6JXIaPPmQ/</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
